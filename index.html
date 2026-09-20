@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Belly Free Nation | Invoice</title>
 
 <style>
@@ -35,11 +36,13 @@ body {
     margin: 0;
     font-size: 28px;
     letter-spacing: 1px;
+    color: #174A35;
 }
 
 .brand p {
     margin-top: 8px;
     color: #777;
+    font-size: 15px;
 }
 
 .invoice-title {
@@ -72,13 +75,17 @@ body {
 .pay-button {
     display: block;
     text-align: center;
-    background: #222;
+    background: #2E8B57;
     color: white;
     text-decoration: none;
     padding: 16px;
     border-radius: 8px;
     font-size: 18px;
     font-weight: bold;
+}
+
+.pay-button:hover {
+    opacity: 0.9;
 }
 
 .note {
@@ -88,17 +95,28 @@ body {
     color: #777;
     line-height: 1.6;
 }
+
+.brand-footer {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #555;
+}
 </style>
 </head>
 
 <body>
 
 <div class="container">
+
 <div class="invoice">
 
 <div class="brand">
 <h1>BELLY FREE NATION</h1>
-<p>Personalized High-Protein Food Program</p>
+<p>Burn The Fat. Keep The Life.</p>
 </div>
 
 <div class="invoice-title">
@@ -120,7 +138,8 @@ INVOICE
 <span>₹15,000</span>
 </div>
 
-<a class="pay-button"
+<a
+class="pay-button"
 href="upi://pay?pa=6309075979-2%40ybl&pn=Belly%20Free%20Nation&am=15000.00&cu=INR&tn=BFN-001-Susa">
 PAY ₹15,000
 </a>
@@ -128,13 +147,16 @@ PAY ₹15,000
 <div class="note">
 Please complete the payment through your UPI app.<br><br>
 Once payment is completed, please send the payment confirmation to Belly Free Nation.
-<br><br>
-<strong>Food as a lifestyle, not a meal plan.</strong>
+</div>
+
+<div class="brand-footer">
+<strong>Structured daily fuel for fat loss, energy &amp; recovery.</strong><br>
+<strong>Real food. Clear results.</strong>
 </div>
 
 </div>
+
 </div>
 
 </body>
 </html>
-
